@@ -1,4 +1,4 @@
-	### Why Choose MiniExcel?
+### Why Choose MiniExcel?
 
 MiniExcel is a modern, open-source .NET library designed specifically for working with Excel files in a simple and performant manner. Unlike other libraries that may be heavy or complex, MiniExcel focuses on delivering core functionality with minimal dependencies, making it an excellent choice for developers who need a straightforward solution.
 
