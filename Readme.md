@@ -7,13 +7,13 @@ Here are some of the key reasons why MiniExcel might be the best choice for your
 ### Performance:
 MiniExcel is optimized for performance, allowing you to handle large Excel files quickly. It achieves this by using a streaming approach to read and write Excel files, reducing memory consumption and improving processing speed.
 
-###Simplicity:
+### Simplicity:
 The API of MiniExcel is designed to be intuitive and easy to use. With just a few lines of code, you can accomplish common tasks like reading from or writing to Excel files, making it accessible even for developers new to working with Excel in .NET.
 	
-###Lightweight:
+### Lightweight:
 MiniExcel is lightweight, with minimal dependencies, which means it adds very little overhead to your project. This is particularly useful for applications where performance and resource usage are critical.
 
-###Open-Source:
+### Open-Source:
  Being open-source, MiniExcel is free to use and actively maintained by the community. This also means you can contribute to its development or customize it to better suit your needs.
 
 
@@ -23,8 +23,8 @@ MiniExcel is lightweight, with minimal dependencies, which means it adds very li
 
 2- 
 
-c#
-`
+```c#
+
  public class Employee
  {
      public int EmployeeID { get; set; }
@@ -48,5 +48,5 @@ if (employees.Count > 0)
     dataGridView1.AutoGenerateColumns = true;
     dataGridView1.DataSource = employees;
     dataGridView1.Refresh();
-}     
-`
+}
+```
